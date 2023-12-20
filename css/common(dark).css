@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.dark {
+  background-color: #333;
+  color:#ddd
+ }
+/* HEADER - S */
+.dark .gnb .depth1{border: 0px solid rgba(0,0,0,0);}
+.dark .gnb .depth2{color: #999;}
+.dark .gnb .gnb-bg{background-color: #333;}
+.dark .gnb .depth1:hover{border-bottom: 1px solid  #fca27f;} 
+.dark  .gnb .depth2 li:hover{color:  #fca27f;}
+.dark  .tnb .t-top .consult li a{ color: #fff;}
+.dark  .tnb .t-top .membership-counseling a{background-color: #fca27f;}
+.dark .tnb .t-top .customer-counseling a{background-color: #999;}
+.dark .all-menu-list .depth1{color: lightcoral;}
+.dark .all-menu-list .depth2{color: #999;}
+.dark .all-menu-list .depth2 li::before{background-color: #fa4d09;}
+.dark .all-menu-bg{background-color: #333;}
+.dark .all-menu-list .depth1:hover > a{color: #fa4d09;}
+.dark .all-menu-list .depth2 li:nth-child(n):hover{color: #fa4d09}
+.dark .tnb .mode{background: center / contain no-repeat url(/portfolio/img/moon_1476061.png);}
+/* HEADER - E */
+/* MAIN COMMON - S  */
+.dark .sec-header-tit{color: #bbb; }
+/* MAIN COMMON - E  */
+/* aside - S */
+.dark .quick a{background-color: #999;}
+.dark .quick em{color:#eee}
+/* aside - E */
+/* FOOTER - S */
+.dark .footer{
+  color: #999;
+  background-color: #555;
+}
+.dark .footer .aside{border-left: 1px solid #666;}
+.dark .footer .f-mid{border-left: 1px solid #666;}
+.dark .footer .f-top{color: #bbb;}
+.dark .footer .f-top li:nth-child(1){color: cornflowerblue;}
+.dark .footer .f-bottom{color: #888;}
+.dark .footer .f-bottom strong{color: #666;}
+/* FOOTER - E */
+
+/***************
+max-width:1280px
+****************/
+@media all and (max-width:1280px) {
+.dark .footer .f-mid{border-left: 1px solid transparent;}
+.dark  .footer .aside{border-left: 1px solid transparent;}
+}
+
+/***************
+max-width:640px
+****************/
+@media all and (max-width:640px) { 
+ /* COLOR 변경 내용 없음 */
+}

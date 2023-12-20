@@ -1,0 +1,152 @@
+@charset "UTF - 8";
+.sub-header{background:  center / cover no-repeat url(/portfolio/img/subVisual_brand.jpg);}
+
+/* MAIN - S */
+.sec-header{display: flex; flex-direction: column; align-items: center;}
+.sec-header::after{
+    content: "";
+    display: block;
+    width: 1200px; height: 300px;
+    background: center / cover no-repeat url(/portfolio/img/history_01.jpg);
+}
+.history{    
+    display: flex; flex-direction: column-reverse;align-items: center;
+    height: 100%;
+    padding: 90px 0;
+    position: relative;
+}
+.history li::before{
+    content: "";
+    display: block;
+    width: 1px; height: 100%;
+    background-color: #bbb;
+    transform: translate(-50% , -50%);
+    position: absolute; left: 50%; top: 50%;
+}
+.history > li{
+    display: flex; 
+    width: 1200px; height: 300px;
+    padding: 50px 0 30px;
+    position: relative;
+}
+.history  > li:nth-child(2n){justify-content: flex-end;}
+.history > li:nth-child(2n-1){
+    justify-content: flex-start;
+    padding-left: 110px
+}
+.history > li:nth-child(n)::before{
+    content: "";
+    display: block;
+    width: 5px; height: 5px;
+    border: 3px solid #ff4d00; border-radius: 5px;
+    background-color: #fff;
+    transform: translate(-50% , -30%);
+    position: absolute; left: 50%; top: 30%; z-index: 10;
+}
+.history > li:nth-child(n)::after{    
+    content: "";
+    display: block;
+    width:180px; height: 180px;
+    transform:  translate(-50% , -50%);
+    position: absolute; left: 50%; top: 50%
+}
+.history > li:nth-child(1)::after{background: center / contain no-repeat url(/portfolio/img/history_2017.jpg);}
+.history > li:nth-child(2)::after{background: center / contain no-repeat url(/portfolio/img/history_2018.jpg);}
+.history > li:nth-child(3)::after{background: center / contain no-repeat url(/portfolio/img/history_2019.jpg);}
+.history > li:nth-child(4)::after{background: center / contain no-repeat url(/portfolio/img/history_2020.jpg);}
+.history > li:nth-child(5)::after{background: center / contain no-repeat url(/portfolio/img/history_2021.jpg);}
+.history > li:nth-child(6)::after{background: center / contain no-repeat url(/portfolio/img/history_2022.jpg);}
+.history > li:nth-child(2n-1)::after{
+    justify-content: flex-start;
+    position: absolute; left: calc( 50% + 300px );
+}
+.history > li:nth-child(2n)::after{
+    justify-content: flex-end;
+    position: absolute; left: calc( 50% - 300px ); 
+}
+.history-year{font-size: 30px; font-weight: 700; color: #ff4d00}
+.history-mon li em{
+    display: flex;
+    width: 350px;
+}
+.history-mon strong{
+    display: block;
+    width: 40px;
+    font-weight: 600; color: #ff4d00
+}
+.history >li:nth-child(n) .history-mon li {margin: 0 20px 0;}
+.history-mon em{
+    display: block; 
+    width: 300px ; 
+    margin-bottom: 10px;
+}
+/* MAIN - E */
+
+
+/* ********
+1280
+*********/
+@media all and (max-width:1280px) {
+.sec-header::after{width: 100%; height: 300px;}
+.history > li{width: 600px; height: 400px;}
+.history > li:nth-child(n)::after{    
+    width:150px; height: 150px;
+    position: absolute; left: 25%;
+}
+.history > li:nth-child(2n-1){
+    justify-content: flex-end;
+    padding-left: 0px
+}
+.history-year{font-size: 22px}
+.history-mon li em{width: 180px;}
+.history-mon strong{display: block; width: 40px;}
+.history >li:nth-child(n) .history-mon li {margin: 0 20px 0;}
+}
+/* ********
+640
+*********/
+@media all and (max-width:640px) {
+.sec-header::after{width: 100%; height: 300px;}
+.history{    
+    display: flex; flex-direction: column-reverse; align-items: flex-start;
+    height: 100%;
+    padding: 0; margin-bottom: 130px;
+    position: relative;
+}
+.history > li:nth-child(n){
+    display: flex; justify-content: space-between; 
+    width:calc( 100% - 40px ); height: 100%;
+    margin-left: 10px; padding-bottom: 20px; 
+    border-bottom: 1px solid #999;
+    position: relative;
+}
+.history li::before {display: none;}
+.history > li:nth-child(n)::before{display: none;}
+.history > li:nth-child(n)::after{display: none;}
+.history-year{font-size: 30px}
+.history-mon strong{width: 60px; font-size: 20px; }
+.history-mon li em{width: 200px;}
+.history >li:nth-child(n) .history-mon li {margin: 0;}
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{color: #191919; }
+/* HEADER - S */
+.gnb .depth1{border: 0px solid rgba(0,0,0,0);}
+.gnb .depth2{color: #999;}
+.gnb .gnb-bg{background-color: #fff;}
+.gnb .depth1:hover{border-bottom: 1px solid #fa4d09} 
+.gnb .depth2 li:hover{color: #fa4d09}
+.tnb .t-top .consult li a{ color: #fff;}
+.tnb .t-top .membership-counseling a{background-color: #fa4d09;}
+.tnb .t-top .customer-counseling a{background-color: #999;}
+.all-menu-list .depth1{color: lightcoral;}
+.all-menu-list .depth2{color: #999;}
+.all-menu-list .depth2 li::before{background-color: #fa4d09;}
+.all-menu-bg{background-color: #fff;}
+.all-menu-list .depth1:hover > a{color: #fa4d09;}
+.all-menu-list .depth2 li:nth-child(n):hover{color: #fa4d09}
+.tnb .mode{background: center / contain no-repeat url(/portfolio/img/sun_1476083.png);}
+/* HEADER - E */
+/* MAIN COMMON - S  */
+.sec-header-tit{color: #fa4d09; }
+/* MAIN COMMON - E  */
+/* aside - S */
+.quick a{background-color: #fa4d09;}
+.quick em{color:#fff}
+/* aside - E */
+
+/* FOOTER - S */
+.footer{
+  color: #999;
+  background-color: #333;
+}
+.footer .aside{
+  border-left: 1px solid #555;
+  color: #888;
+}
+.footer .f-mid{border-left: 1px solid #555;}
+.footer .f-top{color: #bbb;}
+.footer .f-top li:nth-child(1){color: cornflowerblue;}
+.footer .f-bottom{color: #888;}
+.footer .f-bottom strong{color: #666;}
+/* FOOTER - E */
+
+
+/***************
+max-width:1280px
+****************/
+@media all and (max-width:1280px) {
+.footer .f-mid{border-left: 1px solid transparent;}
+.footer .aside{border-left: 1px solid transparent;}
+}
+
+/***************
+max-width:640px
+****************/
+@media all and (max-width:640px) { 
+ /* COLOR 변경 내용 없음 */
+}

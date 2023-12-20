@@ -1,0 +1,103 @@
+@charset "UTF - 8";
+/* MAIN - S */
+.sub-visual{background:  center / cover no-repeat url(/portfolio/img/subVisual_inquiry3.jpg);}
+.sec-header{display: flex; flex-direction: column; align-items: center;}
+.main .tea-collection{
+  display: flex; flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+}
+.main .tea-collection > li{
+  display: flex; justify-content: center; align-items: center;
+  width: 100%; 
+  padding: 100px 0;
+  gap: 150px;
+}
+.main .tea-collection > li::before{
+  content: "";
+  display: block;
+  width: 300px; height: 300px;
+}
+.main .tea-collection > li:nth-child(1)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection01.png);}
+.main .tea-collection > li:nth-child(2)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection02.png);}
+.main .tea-collection > li:nth-child(3)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection03.png);}
+.main .tea-collection > li:nth-child(4)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection04.png);}
+.main .tea-collection >  li:nth-child(1) {background-color: rgba(231, 239, 247,0.1);}
+.main .tea-collection > li:nth-child(2) {background-color:rgba(243, 228, 206,0.2)}
+.main .tea-collection > li:nth-child(3) {background-color:rgba(234, 235, 184,0.2)}
+.main .tea-collection > li:nth-child(4) {background-color: rgba(202, 243, 206,0.2);}
+.main .tea-collection > li:nth-child(2n){flex-direction: row-reverse;}
+.main .tea-collection > li > div{display: flex; flex-direction: column;}
+.main .tea-collection li strong{
+  display: block;
+  width: 400px;
+  margin-bottom: 16px;
+  font-size: 26px; font-weight: 700;
+}
+.main .tea-collection li em{font-weight: 200;}
+.main .tea-collection li p{
+  width: 400px;
+  margin-bottom: 40px;
+  font-size: 16px;  line-height: 30px;
+}
+.main .tea-collection li .ripen{
+  display:flex;
+  width: 120px; height: 40px;
+  margin-bottom: 40px;
+  font-size: 14px; line-height: 40px; text-align: center;
+}
+.main .tea-collection li .ripen em{
+  display: block;
+  width: 80px; 
+}
+.main .tea-collection li .ripen span{
+  display: block;
+  width: 40px; 
+  color: #fff; font-weight: 700;
+}
+.main .tea-collection li:nth-child(1) .ripen{border: 1px solid rgb(253, 101, 0);}
+.main .tea-collection li:nth-child(2) .ripen{border: 1px solid rgb(245, 243, 139);}
+.main .tea-collection li:nth-child(3) .ripen{border: 1px solid rgb(250, 147, 13);}
+.main .tea-collection li:nth-child(4) .ripen{border: 1px solid rgb(196, 125, 32);}
+.main .tea-collection li:nth-child(1) .ripen span{background-color: rgb(253, 101, 0);}
+.main .tea-collection li:nth-child(2) .ripen span{background-color: rgb(245, 243, 139);}
+.main .tea-collection li:nth-child(3) .ripen span{background-color:rgb(250, 147, 13);}
+.main .tea-collection li:nth-child(4) .ripen span{background-color:rgb(196, 125, 32);}
+.main .tea-collection .tea-collection-des{
+  display: block;
+  width: 400px;
+}
+.main .tea-collection .tea-collection-des li{
+  display: flex; justify-content: space-between;
+  width: 240px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.main .tea-collection .tea-collection-des li:nth-child(1){margin-bottom: 10px;}
+.main .tea-collection .tea-collection-des span{font-weight: 300;}
+/* MAIN - E  */
+
+/***********
+1280px 
+********** */
+@media all and (max-width:1280px) {
+.main .tea-collection > li{gap: 20px;}
+.main .tea-collection > li::before{width: 200px; height: 200px;}
+.main .tea-collection li strong{width: 320px;}
+.main .tea-collection li p{width: 320px;}
+.main .tea-collection .tea-collection-des{width: 320px;}
+}
+/***********
+640px 
+********** */
+@media all and (max-width:640px) {
+.main .tea-collection > li{flex-direction: column; }
+.main .tea-collection > li:nth-child(2n){flex-direction: column;}
+.main .tea-collection > li > div{align-items: center;}
+.main .tea-collection li strong{display: flex; justify-content: center;}
+.main .tea-collection li p{
+  width:100%;
+  text-align: center;
+}
+.main .tea-collection .tea-collection-des{width: 240px;}
+}

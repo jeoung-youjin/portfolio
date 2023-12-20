@@ -1,0 +1,53 @@
+@charset "UTF - 8";
+.sec-header-tit{font-size: 36px}
+.sec-header-des{font-size: 16px}
+.sub-visual{
+    display: flex; flex-direction: column; align-items: center;
+    width: 100%;
+    background:  center / cover no-repeat url(/portfolio/img/subVisual_brand.jpg);
+    position: relative;
+}
+.sub-visual-tit {
+    display: flex; flex-direction: column; align-items: center;
+    padding: 150px;
+    font-size: 36px; font-weight: 700; color: #fff;
+}
+.sub-visual-tit em{font-size: 20px;}
+.sub-visual-menu{
+    display: flex; justify-content: center;
+    width: 100%;
+    font-size: 15px; font-weight: 700; color: #fff;
+}
+.sub-visual-menu .inner{    
+    display: flex; justify-content: center;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+.sub-visual-menu li{
+    display: flex;
+    width: calc( 100% / 4);
+    border-left:  1px solid #fff;
+    background-color: #bbb;
+    border-bottom: 1px solid #999;
+}
+.sub-visual-menu  li:nth-child(4){border-right:  1px solid #fff;}
+.sub-visual-menu  li a{
+    display: flex; justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.sub-visual-menu  li:hover {
+    color: #ff4d00;
+    background-color: #fff; 
+}
+@media all and (max-width:640px) {
+.sub-visual-tit {padding: 30px;}
+.sub-visual-menu{ font-weight: 700; color: #fff;}
+.sub-visual-menu ul{font-size: 13px;}
+.sub-visual-menu ul li{
+    width: calc( 100% / 4);
+    padding: 0px;
+}
+.sub-visual-menuul li:nth-child(4){border-right:  1px solid #fff;}
+.sub-visual-menuul li a{padding: 10px 0px; font-size: 16px;}
+}

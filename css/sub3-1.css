@@ -1,0 +1,4 @@
+@charset "UTF - 8";
+/* MAIN - S */
+.sub-visual{background:  center / cover no-repeat url(/portfolio/img/subVisual_map.jpg);}
+.sec-header{display: flex; flex-direction: column; align-items: center;}
