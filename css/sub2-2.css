@@ -22,10 +22,10 @@
 .main .tea-collection > li:nth-child(2)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection02.png);}
 .main .tea-collection > li:nth-child(3)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection03.png);}
 .main .tea-collection > li:nth-child(4)::before{background: center / contain no-repeat url(/portfolio/img/tea-collection04.png);}
-.main .tea-collection >  li:nth-child(1) {background-color: rgba(231, 239, 247,0.1);}
-.main .tea-collection > li:nth-child(2) {background-color:rgba(243, 228, 206,0.2)}
-.main .tea-collection > li:nth-child(3) {background-color:rgba(234, 235, 184,0.2)}
-.main .tea-collection > li:nth-child(4) {background-color: rgba(202, 243, 206,0.2);}
+.main .tea-collection >  li:nth-child(1) {background-color: rgba(231, 239, 247,0.3);}
+.main .tea-collection > li:nth-child(2) {background-color:rgba(243, 228, 206,0.3)}
+.main .tea-collection > li:nth-child(3) {background-color:rgba(234, 235, 184,0.3)}
+.main .tea-collection > li:nth-child(4) {background-color: rgba(202, 243, 206,0.3);}
 .main .tea-collection > li:nth-child(2n){flex-direction: row-reverse;}
 .main .tea-collection > li > div{display: flex; flex-direction: column;}
 .main .tea-collection li strong{
