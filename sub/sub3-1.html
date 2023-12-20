@@ -33,7 +33,7 @@
 <body>
     <header class="header">
         <div class="inner">
-            <h1 class="logo"><a href="#"><img src="../img/logo.png" alt="팔공티"></a></h1>
+            <h1 class="logo"><a href="/portfolio/index.html"><img src="../img/logo.png" alt="팔공티"></a></h1>
             <nav class="gnb">
                 <ul>
                     <li class="depth1">
@@ -135,93 +135,114 @@
                 </ul>
             </div>
         </section>
-        <div class="sec-header inner">
-            <h4 class="sec-header-tit">국내매장</h4>
-            <p class="sec-header-des">가까운 팔공티매장을 확인하세요!</p>
-        </div>
-        <div>
-            <ul>
-                <li>주차</li>
-                <li>와이파이</li>
-                <li>테이블</li>
-                <li>딜리버리</li>
-            </ul>
-            <form class="search">
-                <fieldset>매장명 검색</fieldset>
-                <input type="text" name="keywords" placeholder="지점명 검색">
-                <button type="button">검색</button>
-            </form>
-        </div>
-        <div>
-            <div class="map">
-                <figure>
-                    <figcaption class="hide">지점 위치 지도</figcaption>
-                    <img src="/portfolio/img/sub-map.png" alt="">
-                </figure>
-                <ul class="map-bt">
-                    <li>인천</li>
-                    <li>서울</li>
-                    <li>강원</li>
-                    <li>경기</li>
-                    <li>충북</li>
-                    <li>충남</li>
-                    <li>세종</li>
-                    <li>대전</li>
-                    <li>경북</li>
-                    <li>전북</li>
-                    <li>대구</li>
-                    <li>울산</li>
-                    <li>경남</li>
-                    <li>광주</li>
-                    <li>전남</li>
-                    <li>부산</li>
-                    <li>제주</li>
-                    <li>전체</li>
+        <div class="inner">
+            <div class="sec-header">
+                <h4 class="sec-header-tit">팔공티 국내매장</h4>
+                <p class="sec-header-des">가까운 팔공티매장을 확인하세요!</p>
+            </div>
+            <div class="store-search">
+                <ul>
+                    <li>
+                        <input type="checkbox" name="service01" id="service-ck01" value="y">
+                        <label for="service-ck01">주차</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="service02" id="service-ck02" value="">
+                        <label for="service-ck02">와이파이</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="service03" id="service-ck03" value="">
+                        <label for="service-ck03">테이블</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="service04" id="service-ck04" value="">
+                        <label for="service-ck04">딜리버리</label>
+                    </li>
                 </ul>
-                <p>찾으시는 매장지역을 클릭하세요!</p>
+                <form>
+                    <fieldset>매장명 검색</fieldset>
+                    <input type="text" name="keywords" placeholder="지점명 검색">
+                    <button type="button">검색</button>
+                </form>
             </div>
-        </div>
-        <div class="store-list">
-            <div>
-                <strong>전체 <span></span>개 지점</strong>
-            </div>
-            <ul>
-                <li>
+            <div class="store-map">
+                <div class="map">
+                    <figure>
+                        <figcaption class="hide">지점 위치 지도</figcaption>
+                        <img src="/portfolio/img/sub-map.png" alt="">
+                    </figure>
+                    <ul class="map-bt">
+                        <li><a href="#">인천</a></li>
+                        <li><a href="#">서울</a></li>
+                        <li><a href="#">강원</a></li>
+                        <li><a href="#">경기</a></li>
+                        <li><a href="#">충북</a></li>
+                        <li><a href="">충남</a></li>
+                        <li><a href="">세종</a></li>
+                        <li><a href="">대전</a></li>
+                        <li><a href="">경북</a></li>
+                        <li><a href="">전북</a></li>
+                        <li><a href="">대구</a></li>
+                        <li><a href="">울산</a></li>
+                        <li><a href="">경남</a></li>
+                        <li><a href="">광주</a></li>
+                        <li><a href="">전남</a></li>
+                        <li><a href="">부산</a></li>
+                        <li><a href="">제주</a></li>
+                        <li class="on"><a href="">전체</a></li>
+                    </ul>
+                    <p>찾으시는 매장지역을 클릭하세요!</p>
+                </div>
+                <div class="store-map-list">
                     <div>
-                        <strong>경북문경점</strong>
-                        <address>경상북도 문경시 매봉2길 31 (모전동) 1층</address>
+                        <strong>전체 <span></span>개 지점</strong>
                     </div>
-                    <button type="button">상세보기</button>
-                </li>
-                <li>
-                    <div>
-                        <strong>경상중산점</strong>
-                        <address>경상북도 경산시 펜타힐즈2로 25 , 109호 (중산동 힐즈스퀘어4차)</address>
+                    <ul>
+                        <li>
+                            <div>
+                                <strong>경북문경점</strong>
+                                <address>경상북도 문경시 매봉2길 31 (모전동) 1층</address>
+                            </div>
+                            <button type="button">상세보기</button>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>경상중산점</strong>
+                                <address>경상북도 경산시 펜타힐즈2로 25 , 109호 (중산동 힐즈스퀘어4차)</address>
+                            </div>
+                            <button type="button">상세보기</button>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>고잔점</strong>
+                                <address>경기도 안산시 단원구 광덕동로 39 115호</address>
+                            </div>
+                            <button type="button">상세보기</button>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>관문시장점</strong>
+                                <address>대구광역시 남구 대명서로 146-2</address>
+                            </div>
+                            <button type="button">상세보기</button>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>관문시장점</strong>
+                                <address>대구광역시 남구 대명서로 146-2</address>
+                            </div>
+                            <button type="button">상세보기</button>
+                        </li>
+                    </ul>
+                    <div class="store-list-bt">
+                        <a class="pre" href="#">
+                            <span>이전 페이지 보기</span>
+                        </a>
+                        <a class="next" href="#">
+                            <span>다음 페이지 보기</span>
+                        </a>
                     </div>
-                    <button type="button">상세보기</button>
-                </li>
-                <li>
-                    <div>
-                        <strong>고잔점</strong>
-                        <address>경기도 안산시 단원구 광덕동로 39 115호</address>
-                    </div>
-                    <button type="button">상세보기</button>
-                </li>
-                <li>
-                    <div>
-                        <strong>관문시장점</strong>
-                        <address>대구광역시 남구 대명서로 146-2</address>
-                    </div>
-                    <button type="button">상세보기</button>
-                </li>
-            </ul>
-            <div>
-                <a class="pre" href="">
-                    <span class="hide">이전 페이지 보기</span>
-                </a>
-                <a class="next" href="">
-                    <span class="hide">다음 페이지 보기</span>
-                </a>
+                </div>
             </div>
         </div>
     </main>
