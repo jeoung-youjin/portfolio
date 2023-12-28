@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PALGONGTEA 팔공티</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALGONGTEA 팔공티</title>
 
-  <!-- search -->
-  <meta http-equiv="title" content="팔공티" />
-  <meta name="keywords" content="팔공티,팔공티 버블티, 버블티" />
-  <meta name="description" content="티(茶) 전문 카페 프랜차이즈, 메뉴 소개, 가맹 창업 문의, 이벤트, 매장 안내" />
+    <!-- search -->
+    <meta http-equiv="title" content="팔공티" />
+    <meta name="keywords" content="팔공티,팔공티 버블티, 버블티" />
+    <meta name="description" content="티(茶) 전문 카페 프랜차이즈, 메뉴 소개, 가맹 창업 문의, 이벤트, 매장 안내" />
 
-  <!-- og -->
-  <meta property="og:type" content="responsive web">
-  <meta property="og:title" content="팔공티">
-  <meta property="og:description" content="티(茶) 전문 카페 프랜차이즈, 메뉴 소개, 가맹 창업 문의, 이벤트, 매장 안내">
-  <meta property="og:image" content="">
-  <meta property="og:url" content="http://www.palgongtea.com">
+    <!-- og -->
+    <meta property="og:type" content="responsive web">
+    <meta property="og:title" content="팔공티">
+    <meta property="og:description" content="티(茶) 전문 카페 프랜차이즈, 메뉴 소개, 가맹 창업 문의, 이벤트, 매장 안내">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://www.palgongtea.com">
 
-  <!-- css -->
-  <link rel="icon" size="32x32" href="/portfolio/img/favicon.png">
-  <link rel="stylesheet" href="/portfolio/css/reset.css">
-  <link rel="stylesheet" href="/portfolio/css/common.css">
-  <link rel="stylesheet" href="/portfolio/css/common(light).css">
-  <link rel="stylesheet" href="/portfolio/css/common(dark).css">
-  <link rel="stylesheet" href="/portfolio/css/sub-common.css">
-  <link rel="stylesheet" href="/portfolio/css/sub3-1.css">
+    <!-- css -->
+    <link rel="icon" size="32x32" href="/portfolio/img/favicon.png">
+    <link rel="stylesheet" href="/portfolio/css/reset.css">
+    <link rel="stylesheet" href="/portfolio/css/common.css">
+    <link rel="stylesheet" href="/portfolio/css/common(light).css">
+    <link rel="stylesheet" href="/portfolio/css/common(dark).css">
+    <link rel="stylesheet" href="/portfolio/css/sub-common.css">
+    <link rel="stylesheet" href="/portfolio/css/sub3-1.css">
 
-  <!-- 외부 링크 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- 외부 링크 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <header class="header">
@@ -143,7 +144,7 @@
             <div class="store-search">
                 <ul>
                     <li>
-                        <input type="checkbox" name="service01" id="service-ck01" value="y">
+                        <input type="checkbox" name="service01" id="service-ck01" value="">
                         <label for="service-ck01">주차</label>
                     </li>
                     <li>
@@ -172,24 +173,24 @@
                         <img src="/portfolio/img/sub-map.png" alt="">
                     </figure>
                     <ul class="map-bt">
-                        <li><a href="#">인천</a></li>
-                        <li><a href="#">서울</a></li>
-                        <li><a href="#">강원</a></li>
-                        <li><a href="#">경기</a></li>
-                        <li><a href="#">충북</a></li>
-                        <li><a href="">충남</a></li>
-                        <li><a href="">세종</a></li>
-                        <li><a href="">대전</a></li>
-                        <li><a href="">경북</a></li>
-                        <li><a href="">전북</a></li>
-                        <li><a href="">대구</a></li>
-                        <li><a href="">울산</a></li>
-                        <li><a href="">경남</a></li>
-                        <li><a href="">광주</a></li>
-                        <li><a href="">전남</a></li>
-                        <li><a href="">부산</a></li>
-                        <li><a href="">제주</a></li>
-                        <li class="on"><a href="">전체</a></li>
+                        <li>인천</li>
+                        <li>서울</li>
+                        <li>강원</li>
+                        <li>경기</li>
+                        <li>충북</li>
+                        <li>충남</li>
+                        <li>세종</li>
+                        <li>대전</li>
+                        <li>경북</li>
+                        <li>전북</li>
+                        <li>대구</li>
+                        <li>울산</li>
+                        <li>경남</li>
+                        <li>광주</li>
+                        <li>전남</li>
+                        <li>부산</li>
+                        <li>제주</li>
+                        <li>전체</li>
                     </ul>
                     <p>찾으시는 매장지역을 클릭하세요!</p>
                 </div>
@@ -198,42 +199,31 @@
                         <strong>전체 <span></span>개 지점</strong>
                     </div>
                     <ul>
-                        <li>
+                        <!-- 매장정보불러와짐 -->
+                        <!-- <li>
                             <div>
-                                <strong>경북문경점</strong>
-                                <address>경상북도 문경시 매봉2길 31 (모전동) 1층</address>
+                                <em></em>
+                                <strong></strong>
+                                <address></address>
                             </div>
-                            <button type="button">상세보기</button>
-                        </li>
-                        <li>
-                            <div>
-                                <strong>경상중산점</strong>
-                                <address>경상북도 경산시 펜타힐즈2로 25 , 109호 (중산동 힐즈스퀘어4차)</address>
+                            <button></button>
+                            <div class="modal-box">
+                                <strong></strong>
+                                <em></em>
+                                <ul class="hour">
+                                    <li><strong></strong></li>
+                                    <li><strong></strong></li>
+                                </ul>
+                                <ul>
+                                    <li><img></li>
+                                    <li><img></li>
+                                    <li><img></li>
+                                    <li><img></li>
+                                </ul>
                             </div>
-                            <button type="button">상세보기</button>
-                        </li>
-                        <li>
-                            <div>
-                                <strong>고잔점</strong>
-                                <address>경기도 안산시 단원구 광덕동로 39 115호</address>
-                            </div>
-                            <button type="button">상세보기</button>
-                        </li>
-                        <li>
-                            <div>
-                                <strong>관문시장점</strong>
-                                <address>대구광역시 남구 대명서로 146-2</address>
-                            </div>
-                            <button type="button">상세보기</button>
-                        </li>
-                        <li>
-                            <div>
-                                <strong>관문시장점</strong>
-                                <address>대구광역시 남구 대명서로 146-2</address>
-                            </div>
-                            <button type="button">상세보기</button>
-                        </li>
+                        </li> -->
                     </ul>
+                    <ul></ul>
                     <div class="store-list-bt">
                         <a class="pre" href="#">
                             <span>이전 페이지 보기</span>
@@ -266,13 +256,15 @@
                     <li><a href="#">고객지원</a></li>
                 </ul>
                 <div class="f-bottom">
-                    <em>(주) 팔공티 / 사업자번호 669-88-01126  </em>
-                    <address>본사:  서울시 강남구 밤고개로 1길 10, 421호</address>
+                    <em>(주) 팔공티 / 사업자번호 669-88-01126 </em>
+                    <address>본사: 서울시 강남구 밤고개로 1길 10, 421호</address>
                     <strong>COPYFIGHT ⓒ 2021 PALGONG TEA All rights reserved.</strong>
                 </div>
             </div>
         </div>
     </footer>
     <script src="/portfolio/js/main.darkMode.js"></script>
+    <script src="/portfolio/js/sub3-1.js"></script>
 </body>
+
 </html>
