@@ -75,8 +75,7 @@
 .temperature li strong{
   display: block; 
   width: 200px; height: 60px; 
-  border: 3px solid #fff;
-  border-radius: 30px;
+  border: 3px solid #fff; border-radius: 30px;
   font-size: 21px; font-weight: 600; color: #fff; line-height: 60px; text-align: center;
   transform: translateX(-50%);
   position: absolute ; left: 50%; top: -5%;
@@ -105,7 +104,6 @@
 .order .temperature li:nth-child(1)::after{background: center / contain no-repeat url(/portfolio/img/sub-temperature01.png);}
 .order .temperature li:nth-child(2)::after{background: center / contain no-repeat url(/portfolio/img/sub-temperature02.png);}
 .order > li:nth-child(3){
-  display: block;
   width: 100%;
   padding-top: 100px;
   position: relative;
@@ -146,15 +144,12 @@
   color: #555; text-align: center;
 }
 .order .toppings-bg{
-  position: absolute; left: 0; top: 0; z-index: -2;
   width: 100%; height: 1080px;
   background-color: #eee; 
   opacity: 0.3;
+  position: absolute; left: 0; top: 0; z-index: -2;
 }
-.order > li:nth-child(4) {
-  display: block;
-  width: 1200px;
-}
+.order > li:nth-child(4) {display: block; width: 1200px;}
 .order li:nth-child(4) .order-procedure span{
   display: block;
   width: 540px;  
@@ -177,7 +172,6 @@
 }
 .order .choose ul:after{
   content: "";
-  display: block;
   width: 1000px; height: 16px;
   border-radius: 8px;
   background: linear-gradient(to right, rgb(124, 252, 124), rgb(55, 170, 216));
@@ -191,10 +185,8 @@
 }
 .order .choose ul li::before{
   content: "";
-  display: block;
   width: 10px; height: 10px;
-  border: 5px solid #fff ;
-  border-radius: 10px;
+  border: 5px solid #fff ; border-radius: 10px;
   box-shadow: 1px 1px 2px gray;
   position: absolute; left: 0px; top: -3px; z-index: 10;
 }
@@ -218,21 +210,21 @@
     width: calc((100% - 10px)/1.2);
     font-size: 18px;
   }
-.order .toppings li{width: calc((100% - 20px) / 2); }
-.order .toppings li p{width: 190px;}
-.order .toppings-bg{ height: 1850px;} 
-.order > li:nth-child(4) {width: 100%}
-.order .choose strong{
-  width: 110px;
-  font-size: 18px; font-weight: 600;
-}
-.order .choose ul{width: 100%;}
-.order .choose ul:after{width: 100%; }
-.order .choose li{font-size: 16px;}
-.order .choose ul li span{
-  width: 30px;
-  position: absolute;left: 0; bottom: -60%;
-}
+  .order .toppings li{width: calc((100% - 20px) / 2); }
+  .order .toppings li p{width: 190px;}
+  .order .toppings-bg{ height: 1850px;} 
+  .order > li:nth-child(4) {width: 100%}
+  .order .choose strong{
+    width: 110px;
+    font-size: 18px; font-weight: 600;
+  }
+  .order .choose ul{width: 100%;}
+  .order .choose ul:after{width: 100%; }
+  .order .choose li{font-size: 16px;}
+  .order .choose ul li span{
+    width: 30px;
+    position: absolute;left: 0; bottom: -60%;
+  }
 }
 /**********
 1280px - E
@@ -263,28 +255,28 @@
     width: 290px;
     font-size: 18px;
   }
-.order .toppings{padding: 0px 15px 0px;}
-.order .toppings li::before{width: 150px; }
-.order .toppings li strong{font-size: 18px;}
-.order .toppings li p{width: calc( 100% - 20px);}
-.order li:nth-child(4) .order-procedure span{
-  width: 290px;  
-  margin-bottom: 100px; 
-  font-size: 18px; 
-}
-.order .choose{
-  display: flex; flex-direction: column; ;
-  width: 100%;
-  padding: 0 10px 0;
-}
-.order .choose strong{
-  width: 100%;
-  margin-bottom: 30px; padding-left: 0px;
-  text-align: center;
-}
-.order .choose ul{width: 100%;}
-.order .choose ul:after{width: 100%;}
-.order .choose li{font-size: 18px; font-weight: 600;}
+  .order .toppings{padding: 0px 15px 0px;}
+  .order .toppings li::before{width: 150px; }
+  .order .toppings li strong{font-size: 18px;}
+  .order .toppings li p{width: calc( 100% - 20px);}
+  .order li:nth-child(4) .order-procedure span{
+    width: 290px;  
+    margin-bottom: 100px; 
+    font-size: 18px; 
+  }
+  .order .choose{
+    display: flex; flex-direction: column; ;
+    width: 100%;
+    padding: 0 10px 0;
+  }
+  .order .choose strong{
+    width: 100%;
+    margin-bottom: 30px; padding-left: 0px;
+    text-align: center;
+  }
+  .order .choose ul{width: 100%;}
+  .order .choose ul:after{width: 100%;}
+  .order .choose li{font-size: 18px; font-weight: 600;}
 }
 /**********
 640px - E

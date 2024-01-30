@@ -26,9 +26,8 @@
 .sub-visual-menu li{
     display: flex;
     width: calc( 100% / 4);
-    border-left:  1px solid #fff;
+    border-left:  1px solid #fff; border-bottom: 1px solid #999;
     background-color: #bbb;
-    border-bottom: 1px solid #999;
 }
 .sub-visual-menu  li:nth-child(4){border-right:  1px solid #fff;}
 .sub-visual-menu  li a{

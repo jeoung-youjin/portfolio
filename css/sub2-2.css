@@ -70,8 +70,8 @@
 .main .tea-collection .tea-collection-des li{
   display: flex; justify-content: space-between;
   width: 240px;
-  font-weight: 600;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 .main .tea-collection .tea-collection-des li:nth-child(1){margin-bottom: 10px;}
 .main .tea-collection .tea-collection-des span{font-weight: 300;}

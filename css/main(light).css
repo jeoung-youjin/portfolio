@@ -8,20 +8,25 @@
   border: 1px solid #fff ;
   background-color: #333; 
 }
-.menu  .menu-list ul{
-  border: 1px solid #fff ;
+.menu  .menu-list ul{border: 1px solid #fff ;}
+.menu  .menu-list ul li{
+  display: flex; flex-direction: column; align-items: center;
 }
 .menu-list .product-des strong{
   color: #fa4d09;  
   background-color: #fff;
 }
-.menu  .menu-list .product-des p{color: #fff; }
+.menu  .menu-list .product-des p{
+  color: #fff;
+  width: 70%;
+  margin-bottom: 30px;
+}
 .menu .menu-list h4:hover {
   color: #fa4d09;
   background-color: #fff;
 }
-.notice-list::before{background-color: #333;} 
-.notice-list::after{background-color: #333;} 
+.notice-list::before{background-color: #444;} 
+.notice-list::after{background-color: #444;} 
 .notice-list li{
   border-bottom:  1px solid #9badb6;
   font-size: 20px; color: #666; 
@@ -60,8 +65,5 @@ max-width:640px
   color: #fff;
   background-color: rgba(0,0,0,0);
 }
-
-
-
 
 }

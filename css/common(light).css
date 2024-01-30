@@ -54,6 +54,4 @@ max-width:1280px
 /***************
 max-width:640px
 ****************/
-@media all and (max-width:640px) { 
- /* COLOR 변경 내용 없음 */
-}
+@media all and (max-width:640px) { /* COLOR 변경 내용 없음 */}

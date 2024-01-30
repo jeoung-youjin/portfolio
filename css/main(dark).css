@@ -12,9 +12,7 @@
   border: 1px solid #fff ;
   background-color: #333; 
 }
-.dark .menu  .menu-list ul{
-  border: 1px solid #fff ;
-}
+.dark .menu  .menu-list ul{border: 1px solid #fff ;}
 .dark .menu-list .product-des strong{
   color: #fa4d09;  
   background-color: #fff;
