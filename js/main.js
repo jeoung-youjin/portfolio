@@ -18,6 +18,7 @@ new Swiper(".visual-slide", {
     prevEl: ".swiper-button-prev",
   },
 });
+
 // 모바일 버전
 new Swiper(".visual-mobile-slide", {
   slidesPerView: 1,
@@ -78,6 +79,11 @@ for(const tea of teas){
 }
 teaCollection.innerHTML=teGroup
 
+
+
+
+
+
 // 클릭이벤트
 let tabButtons = document.querySelectorAll('.tab-button > p');
 let tabBoxs = document.querySelectorAll('.tab-box > ul');
@@ -109,8 +115,6 @@ let notice05 = new NoticeList("153","신상품 출시","가을 햇살의 여운�
 let notices=[notice01,notice02,notice03,notice04,notice05]
 let noticeBox = document.querySelector(".notice > .notice-list")
 console.log(noticeBox)
-
-
 let noGroup=``
 
 for(const notice of notices){
