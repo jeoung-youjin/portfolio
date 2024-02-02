@@ -4,7 +4,6 @@ let mapList = document.querySelector(".store-map-list");
 fetch("../js/main.json")
   .then((response) => response.json())
   .then((json) => {
-  
     서울 = json.서울;
     인천 = json.인천;
     강원 = json.강원;

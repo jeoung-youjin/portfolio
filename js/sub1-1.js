@@ -1,5 +1,4 @@
 // tea-process
-
 function TeaProcess(teaImg, step, desKr, desEng ){
   this.teaImg=teaImg;
   this.step=step;

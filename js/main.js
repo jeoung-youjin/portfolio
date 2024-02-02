@@ -48,7 +48,6 @@ let best03 = new BestList("치즈 & 핑크리치 블렌디드","치즈폼 토핑
 let best04 = new BestList("딸기 몽땅 밀크티","딸기 특유의 달콤함과 상큼함을 즐길 수 있는 부드러운 밀크티")
 let bests =[best01,best02,best03,best04]
 let bestMenuList = document.querySelector(".tab-box > .best-menu") 
-console.log(bestMenuList)
 let beGroup =``;
 
 for(const best of bests){
@@ -78,11 +77,6 @@ for(const tea of teas){
   `
 }
 teaCollection.innerHTML=teGroup
-
-
-
-
-
 
 // 클릭이벤트
 let tabButtons = document.querySelectorAll('.tab-button > p');
@@ -114,7 +108,6 @@ let notice05 = new NoticeList("153","신상품 출시","가을 햇살의 여운�
 
 let notices=[notice01,notice02,notice03,notice04,notice05]
 let noticeBox = document.querySelector(".notice > .notice-list")
-console.log(noticeBox)
 let noGroup=``
 
 for(const notice of notices){

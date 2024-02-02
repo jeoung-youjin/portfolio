@@ -60,7 +60,6 @@ let topping08 = new ToppingList("젤리(망고/딸기/리치)","Jelly","부드�
 
 let orderTopping=document.querySelector(".toppings")
 toppings=[topping01,topping02,topping03,topping04,topping05,topping06,topping07,topping08]
-console.log(topping01)
 toGroup=``
 
 for(const topping of toppings){
